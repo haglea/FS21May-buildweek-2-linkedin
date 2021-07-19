@@ -28,26 +28,26 @@ const LinkedinNavbar = () => (
                 <Nav className="d-flex">  
                    
                     <Nav.Link href="#home" className="mx-2 pt-3 pb-0">
-                        <HouseFill style={{ color: "#61605F" }} size={30} />
-                        <p style={{ fontSize:"12px", color: "#61605F" }}>Home</p>
+                        <HouseFill style={{ color: "#61605F",  }} size={30} />
+                        <p className="pt-2" style={{ fontSize:"12px", color: "#61605F", textAlign: "center" }}>Home</p>
                     </Nav.Link>
                     
                     <Nav.Link href="#link" className="pt-3 pb-0 ">
-                        <PeopleFill style={{ color: "#61605F" }} size={30} />
-                        <p style={{ fontSize:"12px", color: "#61605F" }}>My Network</p>
+                        <PeopleFill style={{ color: "#61605F"}} size={30} />
+                        <p className="pt-2" style={{ fontSize:"12px", color: "#61605F", textAlign: "center" }}>My Network</p>
                         </Nav.Link>
                        
                     <Nav.Link href="#link" className="mx-2 pt-3 pb-0">
                         <BriefcaseFill style={{ color: "#61605F" }} size={30} />
-                        <p style={{ fontSize:"12px", color: "#61605F" }}>
+                        <p className="pt-2" style={{ fontSize:"12px", color: "#61605F", textAlign: "center" }}>
                         Jobs</p></Nav.Link>
                     <Nav.Link href="#link" className="pt-3 pb-0 ">
                         <ChatDotsFill style={{ color: "#61605F" }} size={30} />
-                        <p style={{ fontSize:"12px", color: "#61605F" }}>
+                        <p className="pt-2" style={{ fontSize:"12px", color: "#61605F", textAlign: "center" }}>
                         Messaging</p></Nav.Link>
                     <Nav.Link href="#link" className="pt-3 pb-0 mx-2">
                         <BellFill style={{ color: "#61605F" }} size={30} />
-                        <p style={{ fontSize:"12px", color: "#61605F" }}>
+                        <p className="pt-2" style={{ fontSize:"12px", color: "#61605F", textAlign: "center" }}>
                         Notifications</p>
                     </Nav.Link>
                   
@@ -64,14 +64,15 @@ const LinkedinNavbar = () => (
 
                     <Nav.Link href="#link" style={{ borderLeft: "solid 0.1px #61605F"}} className="pt-3 pb-0 mx-2">
                         <Grid3x3GapFill style={{ color: "#61605F" }} size={30} />
-                        <p style={{ fontSize:"12px", color: "#61605F" }}>
-                        Notifications</p>
+                        <p className="pt-2" style={{ fontSize:"12px", color: "#61605F", textAlign: "center" }}>
+                        Work</p>
                     </Nav.Link>
 
                     <Nav.Link href="#link" className="pt-3 pb-0">
                         <Basket3Fill style={{ color: "#61605F" }} size={30} />
-                        <p style={{ fontSize:"12px", color: "#61605F" }}>
-                        Notifications</p>
+                        <p className="pt-2"
+                        style={{ fontSize:"12px", color: "#61605F", textAlign: "center" }}>
+                        Post a Job</p>
                     </Nav.Link>
 
                 </Nav>
