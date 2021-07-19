@@ -39,15 +39,17 @@
 
 /* ------Styles Raissa----- */
 
+ 
 body{
   background-color: #F3F2EF !important;
+ 
 }
-.intro{
+.intro {
   display: flex;
   padding: 20px;
 }
 
-.circle-logo{
+.circle-logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,14 +64,13 @@ body{
   position: absolute;
 }
 
-.contact-info{
-  color:#0A66C2;
+.contact-info {
+  color: #0a66c2;
   font-weight: 600;
   padding-left: 10px;
 }
 
-.profile-container{
-  
+.profile-container {
   border-radius: 10px;
   box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.1);
   background-color: white;
@@ -78,14 +79,13 @@ body{
   min-height: 500px;
 }
 
-.profile-background{
+.profile-background {
   height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center -170px;
   background-image: url(/src/bg.jpg);
   margin-bottom: 55px;
-  
 }
 
 .open{
@@ -99,7 +99,7 @@ body{
   margin-top: 10px;
 }
 
-.add-section{
+.add-section {
   border-radius: 25px !important;
   border: 1px solid rgb(47, 47, 47) !important;
   font-weight: 500;
@@ -113,22 +113,23 @@ body{
   width: 70px !important;
   border-radius: 25px !important;
   border: 1px solid rgb(47, 47, 47) !important;
+
   font-weight: 500;
   color: rgb(92, 92, 92) !important;
   margin-top: 10px;
 }
 
-.left-50{
+.left-50 {
   width: 50%;
 }
-.right-50{
+.right-50 {
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.right-50 img{
+.right-50 img {
   width: 70px;
 }
 
@@ -140,7 +141,7 @@ body{
 
 /* Section Profile Strength */
 
-.profile-strength p{
+.profile-strength p {
   color: gray;
   font-size: 22px;
   font-weight: 400;
@@ -149,38 +150,36 @@ body{
   padding-bottom: 10px;
 }
 
-.profile-strength span{
+.profile-strength span {
   color: black;
   font-weight: 600;
 }
 
-.profile-strength{
+.profile-strength {
   height: 130px;
   background-color: white;
   margin-top: 25px;
 }
 
-
-
-.rate{
+.rate {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .one,
-.two ,
-.three ,
-.four{
+.two,
+.three,
+.four {
   margin-right: 1px;
   background-color: green;
   height: 14px;
   width: 104px;
 }
 
-.four{
+.four {
   position: relative;
 }
-.four img{
+.four img {
   width: 35px;
   position: absolute;
   left: 85px;
@@ -191,17 +190,17 @@ body{
 
 .five,
 .six,
-.seven{
+.seven {
   height: 14px;
   width: 104px;
   background-color: white;
   border: 1px solid black;
 }
-.seven{
+.seven {
   position: relative;
 }
 
-.expand{
+.expand {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -210,8 +209,11 @@ body{
   font-size: 23px;
   position: absolute;
   bottom: 35px;
-  left:50px;
+  left: 50px;
 }
+
+
+/* Dashboard */
 
 .expandable-area{
   padding: 20px 30px;
@@ -253,3 +255,4 @@ body{
 #root > div > div.profile-strength > div.d-block.expandable-area > div{
   height: 100px;
 }
+
