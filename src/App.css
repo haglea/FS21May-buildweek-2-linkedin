@@ -39,15 +39,15 @@
 
 /* ------Styles Raissa----- */
 
-body{
-  background-color: #F3F2EF;
+body {
+  background-color: #f3f2ef;
 }
-.intro{
+.intro {
   display: flex;
   padding: 20px;
 }
 
-.circle-logo{
+.circle-logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,13 +62,13 @@ body{
   position: absolute;
 }
 
-.contact-info{
-  color:#0A66C2;
+.contact-info {
+  color: #0a66c2;
   font-weight: 600;
   padding-left: 10px;
 }
 
-.profile-container{
+.profile-container {
   height: 500px;
   border-radius: 10px;
   box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.1);
@@ -76,28 +76,27 @@ body{
   position: relative;
 }
 
-.profile-background{
+.profile-background {
   height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center -170px;
   background-image: url(/src/bg.jpg);
   margin-bottom: 55px;
-  
 }
 
-.open{
-  background-color: #0A66C2 !important;
+.open {
+  background-color: #0a66c2 !important;
   color: white;
   font-weight: 500;
   border-radius: 25px;
   border: none;
-  width: 91px ;
+  width: 91px;
   margin-right: 10px;
   margin-top: 10px;
 }
 
-.add-section{
+.add-section {
   border-radius: 25px !important;
   border: 1px solid rgb(47, 47, 47);
   font-weight: 500;
@@ -107,7 +106,7 @@ body{
   margin-top: 10px;
 }
 
-.more{
+.more {
   width: 70px;
   border-radius: 25px;
   border: 1px solid rgb(47, 47, 47);
@@ -116,23 +115,23 @@ body{
   margin-top: 10px;
 }
 
-.left-50{
+.left-50 {
   width: 50%;
 }
-.right-50{
+.right-50 {
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.right-50 img{
+.right-50 img {
   width: 70px;
 }
 
 /* Section Profile Strength */
 
-.profile-strength p{
+.profile-strength p {
   color: gray;
   font-size: 22px;
   font-weight: 400;
@@ -141,38 +140,36 @@ body{
   padding-bottom: 10px;
 }
 
-.profile-strength span{
+.profile-strength span {
   color: black;
   font-weight: 600;
 }
 
-.profile-strength{
+.profile-strength {
   height: 130px;
   background-color: white;
   margin-top: 25px;
 }
 
-
-
-.rate{
+.rate {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .one,
-.two ,
-.three ,
-.four{
+.two,
+.three,
+.four {
   margin-right: 1px;
   background-color: green;
   height: 14px;
   width: 104px;
 }
 
-.four{
+.four {
   position: relative;
 }
-.four img{
+.four img {
   width: 35px;
   position: absolute;
   left: 85px;
@@ -183,17 +180,17 @@ body{
 
 .five,
 .six,
-.seven{
+.seven {
   height: 14px;
   width: 104px;
   background-color: white;
   border: 1px solid black;
 }
-.seven{
+.seven {
   position: relative;
 }
 
-.expand{
+.expand {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -202,10 +199,29 @@ body{
   font-size: 23px;
   position: absolute;
   bottom: 35px;
-  left:50px;
+  left: 50px;
 }
 
-.expandable-area{
+.expandable-area {
   height: 300px;
   background-color: white;
 }
+
+/* Dashboard */
+
+/* #dasboardProfile_title span {
+  margin: 0;
+}
+#dasboardProfile_title > span:nth-child(3) {
+  color: rgb(129, 129, 129);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#dasboardProfile_body {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0;
+  font-size: 14px;
+} */
