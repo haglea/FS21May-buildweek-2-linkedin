@@ -8,12 +8,16 @@ import LinkedinNavbar from './Components/LinkedinNavbar';
 
 function App() {
   return (
-    <div className="App">
-      <LinkedinNavbar />    
-      <ProfileMain />
-      <Dashboard />
-      <LinkedinFooter />
-    </div>
+
+    <>
+      <div className="container">
+        <LinkedinNavbar />
+        <ProfileMain />
+        <LinkedinFooter />
+      </div>
+
+
+    </>
   );
 }
 
