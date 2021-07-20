@@ -1,11 +1,15 @@
 import { Col, Button, Carousel } from "react-bootstrap"
 import { useState } from "react"
+import Experiences from "./Experiences"
+import Dashboard from "./Dashboard"
+import Activity from "./Activity"
+import Education from './Education'
 
 
 const ProfileMain = () => {
     const [toggle, setToggle] = useState(false)
     return (
-        <Col xs={10} md={10} lg={7}>
+        <Col xs={8} md={8} lg={8}>
             <div className="profile-container">
                 <div className="profile-background">
 
@@ -110,9 +114,20 @@ const ProfileMain = () => {
 
             </div>
 
+            {/* ============Dashboard=============== */}
 
+            <div className="App">
+                <Dashboard />
+            </div>
 
+            {/* =================Experiences section=============== */}
+
+            <Experiences />
+
+            <Activity />
+            <Education />
         </Col >
+
 
 
     )

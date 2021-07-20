@@ -68,9 +68,13 @@ body{
   padding-left: 10px;
 }
 
+<<<<<<< Updated upstream
 .profile-container{
   
   border-radius: 10px;
+=======
+.profile-container {
+>>>>>>> Stashed changes
   box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.1);
   background-color: white;
   position: relative;
@@ -82,7 +86,7 @@ body{
   height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center -170px;
+  background-position: center -130px;
   background-image: url(/src/bg.jpg);
   margin-bottom: 55px;
   
@@ -158,6 +162,8 @@ body{
   height: 130px;
   background-color: white;
   margin-top: 25px;
+  margin-bottom: 130px;
+  
 }
 
 
@@ -216,7 +222,8 @@ body{
 .expandable-area{
   padding: 20px 30px;
   color: black !important;
-  height: 170px;
+  height: 130px;
+  
   background-color: white !important;
 }
 
@@ -252,4 +259,146 @@ body{
 
 #root > div > div.profile-strength > div.d-block.expandable-area > div{
   height: 100px;
+<<<<<<< Updated upstream
+=======
+}
+
+
+
+/* ==================Experiences section================ */
+
+.exp-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  /* box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.1); */
+  
+}
+
+.exps {
+  padding-left: 20px;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: white;
+}
+
+.exps p{
+  font-weight: 400;
+}
+
+.exp-title{
+  background-color: white;
+  margin: 0;
+  padding-left: 18px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(75, 75, 75);
+  
+}
+
+.gray{
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+.white{
+  font-size: 16px;
+  color: gray;
+  font-weight: 300;
+}
+
+.exps h6{
+  font-weight: 300;
+}
+
+.addButton{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  border: none;
+  font-weight: 300;
+  background-color: transparent;
+  padding-right: 15px;
+  padding-top: 18px;
+  color: gray;
+}
+
+/* ========== Activity section========= */
+
+.act-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 15px;
+  
+  
+}
+
+.act-container h4{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(75, 75, 75);
+  padding-left: 18px;
+}
+.add-post{
+  background-color: transparent;
+  border: none;
+  color: gray;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.add-post:hover{
+   background-color: rgb(206, 204, 204); 
+   border-radius: 5px;
+}
+
+.act-section{
+  background-color: white;
+}
+
+.act-section p{
+  font-size: 12px;
+  color: gray;
+  padding-left: 18px;
+}
+
+.act-button{
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-top: 1px solid rgb(226, 226, 226);
+  color: gray;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.act-button:hover{
+  background-color: rgb(206, 204, 204);
+}
+
+/* ==========Education section============ */
+
+.education-container{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.add-education{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  border: none;
+  font-weight: 300;
+  background-color: transparent;
+  color: gray;
+>>>>>>> Stashed changes
 }
