@@ -9,6 +9,7 @@ import LinkedinNavbar from './Components/LinkedinNavbar';
 function App() {
   return (
 
+<<<<<<< Updated upstream
     <>
       <div className="container">
         <LinkedinNavbar />
@@ -18,6 +19,11 @@ function App() {
 
 
     </>
+=======
+    <ProfileMain />
+
+
+>>>>>>> Stashed changes
   );
 }
 

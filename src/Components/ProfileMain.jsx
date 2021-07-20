@@ -1,6 +1,6 @@
 import { Col, Button, Carousel } from "react-bootstrap"
 import { useState } from "react"
-
+import Dashboard from "./Dashboard"
 
 const ProfileMain = () => {
     const [toggle, setToggle] = useState(false)
@@ -110,7 +110,7 @@ const ProfileMain = () => {
 
             </div>
 
-
+            <Dashboard />
 
         </Col >
 
